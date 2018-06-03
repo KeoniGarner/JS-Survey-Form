@@ -1,0 +1,12 @@
+body {
+    width: 970px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+th {
+    text-align: left;
+}
