@@ -16,10 +16,6 @@ app.use(session({
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 
-app.get('/', function(req, res) {
-    res.render('index');
-});
-
 app.post('/result', function(req, res) {
     var data = {
         name: req.body.name,
